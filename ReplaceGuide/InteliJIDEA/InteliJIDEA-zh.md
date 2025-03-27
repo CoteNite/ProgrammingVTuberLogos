@@ -4,7 +4,7 @@
 
 ## 2024 版本
 
-- `C:\Users\userName\AppData\Local\Programs\IntelliJ IDEA Ultimate\lib\product.jar` 备份该文件
+- `C:\Users\userName\AppData\Local\Programs\IntelliJ IDEA Ultimate\lib\product.jar` (如果找不到该路径，可以试着右键你的IDEA快捷方式，然后选择`打开文件所在的位置`，可以达到`..\IntelliJ IDEA Ultimate\bin`，然后退回到当前目录的上级目录`..\IntelliJ IDEA Ultimate`,即可找到`lib`目录) 备份该文件
 - 创建一个文件夹 `test` 用来修改，将 `product.jar` 放到该文件夹下
 - 在 `test` 文件夹下打开 `windows powershell` 终端，执行 `jar -xvf .\product.jar` 解压
 - 将其中的  `idea_logo@2x.png` 和 `idea_logo.png` 用 `windows` 自带的画图软件打开，`ctrl + a` 全选删除图片
